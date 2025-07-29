@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import Logo from '../assets/images/logo.svg'
-import Sun from '../assets/images/icon-sun.svg'
-import Moon from '../assets/images/icon-moon.svg'
+import Logo from '/assets/images/logo.svg'
+import Sun from '/assets/images/icon-sun.svg'
+import Moon from '/assets/images/icon-moon.svg'
 import Extensions from '../components/Extensions'
 import { ThemeContext } from '../context/theme'
 
