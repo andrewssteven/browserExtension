@@ -1,13 +1,59 @@
-# React + Vite
+# Browser Extension Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini React project that displays a random list of browser extensions with filtering and dark mode features.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple, responsive web app built with React. It showcases a selection of browser extensions, allowing users to filter the list and toggle between light and dark themes. The design is clean and modern, making it easy to browse and interact with the extensions.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# browserExtension
+- **Randomized Extension List:** Displays a random selection of browser extensions on each load.
+- **Filter Functionality:** Easily filter extensions based on categories or keywords.
+- **Dark Mode:** Toggle between light and dark themes for a comfortable viewing experience.
+- **Responsive Design:** Works well on both desktop and mobile devices.
+
+## Live Demo
+
+Check out the live version on Vercel:  
+[https://browser-extension-brown.vercel.app/](https://browser-extension-showcase.vercel.app)
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```
+   git clone <your-repo-url>
+   cd BrowserEstension
+   ```
+
+2. **Install dependencies:**
+
+   ```
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```
+   npm start
+   ```
+
+4. **Open in your browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
+
+## Technologies Used
+
+- React
+- Tailwind CSS (for styling)
+- Context API (for theme and extension state management)
+
+## Customization
+
+- Add or modify extensions in the data/context files.
+- Update images/extension icon in the `public/assets/images` folder.
+- Adjust styles using Tailwind classes in the component files.
+
+---
+
+**Enjoy browsing and managing your favorite browser extensions!**
