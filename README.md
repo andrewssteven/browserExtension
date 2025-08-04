@@ -16,7 +16,7 @@ This project is a simple, responsive web app built with React. It showcases a se
 ## Live Demo
 
 Check out the live version on Vercel:  
-[https://browser-extension-brown.vercel.app/](https://browser-extension-showcase.vercel.app)
+[browser-extension-brown.vercel.app/]
 
 ## Getting Started
 
