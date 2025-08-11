@@ -8,7 +8,7 @@ import { ObjectProvider } from './context/object';
     const { theme } = useContext(ThemeContext);
   
     return (
-      <div className={theme ? 'bg-neutral-200 text-indigo-950 min-h-screen p-10' : 'bg-indigo-950 text-cyan-50 min-h-screen p-5 md:p-10'}>
+      <div className={theme ? 'bg-neutral-200 text-indigo-950 min-h-screen p-5 md:p-10' : 'bg-indigo-950 text-cyan-50 min-h-screen p-5 md:p-10'}>
         <Homepage />
       </div>
     )

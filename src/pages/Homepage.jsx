@@ -19,9 +19,11 @@ const Homepage = () => {
         <section className='mt-4' >
             <div className='rounded-2xl p-2 px-5  flex justify-between items-center bg-white/50 shadow-md '>
                 <img src={Logo} alt="Logo" />
+
+                {/* Theme Toggle Button */}
                 <div>
                     {theme? (
-                        <img src={Moon} alt="sun" onClick={handletoggle} className='cursor-pointer bg-white/40 p-1.5 rounded-md  border-2 border-indigo-950 '/>
+                        <img src={Moon} alt="sun" onClick={handletoggle} className='cursor-pointer bg-white/40 p-1.5 rounded-md border-2 border-indigo-950 '/>
                     ):
                     (
                    <img src={Sun} alt="moon" onClick={handletoggle} className='cursor-pointer bg-white/40 p-1.5 rounded-md'/>
